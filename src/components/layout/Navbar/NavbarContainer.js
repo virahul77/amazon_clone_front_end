@@ -12,7 +12,7 @@ class NavbarContainer extends Component {
   render() {
     return (
       <div>
-        <NavbarView name = 'amazon clone'/>
+        <NavbarView name = 'amazon clone' {...this.props}/>
       </div>
     )
   }

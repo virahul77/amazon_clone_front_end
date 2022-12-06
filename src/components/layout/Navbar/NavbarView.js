@@ -1,6 +1,8 @@
 import React from "react";
 
 function NavbarView(props) {
+  const {t,i18n} = props;
+  console.log(i18n.languages[0]);
   return (
     <>
       <nav id="pageTop" className="navbar navbar-expand-md navbar-dark bg-dark">
